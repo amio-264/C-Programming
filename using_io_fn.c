@@ -6,4 +6,5 @@ int main()
     printf("Enter Age ");
     scanf("%d", &age);
     printf("Age is %d",age);
+    return 0;
 }

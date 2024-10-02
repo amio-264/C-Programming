@@ -1,4 +1,4 @@
-// Syntax for Do-While loop
+// Syntax for do while loop
 // Variable declaration
 // do
 // {
@@ -13,6 +13,6 @@ int main()
     {
         printf("%d\n", i);
         i++;
-    } while (i <= 8);
+    } while (i <= 5);
     return 0;
 }

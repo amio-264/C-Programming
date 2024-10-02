@@ -1,0 +1,18 @@
+// Syntax for Do-While loop
+// Variable declaration
+// do
+// {
+//     do something
+// } while (condition);
+
+#include <stdio.h>
+int main()
+{
+    int i = 0;
+    do
+    {
+        printf("%d\n", i);
+        i++;
+    } while (i <= 8);
+    return 0;
+}

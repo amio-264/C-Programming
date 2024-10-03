@@ -9,7 +9,7 @@ int main()
         printf("Enter a natural number");
     }
     else{
-        printf("Natural number uoto %d are:\n", n);
+        printf("Natural number upto %d are:\n", n);
         for (int i = 1; i <= n;i++){
             printf("%d\n", i);
         }

@@ -2,12 +2,18 @@
 int main()
 {
     for (int i = 5; i <= 50; i++)
+    // {
+    //     if (i % 2 == 0)
+    //     {
+    //         continue;
+    //     }
+    //     printf("%d\n", i);
+    // }
     {
-        if (i % 2 == 0)
+        if (i % 2 != 0)
         {
-            continue;
+            printf("%d\n", i);
         }
-        printf("%d\n", i);
     }
     return 0;
 }

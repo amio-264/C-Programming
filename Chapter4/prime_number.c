@@ -7,6 +7,7 @@ int main()
     if (n <= 1) // condition checks that 1 or zero can't be prime number
     {
         printf("%d is not a prime number", n);
+        return 0;
     }
     for (int i = 2; i < n; i++) // Check the condition if the number is divided by n to n-1
     {

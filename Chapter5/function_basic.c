@@ -1,5 +1,5 @@
 #include <stdio.h>
-//function declaration/prototype
+// function declaration/prototype
 void printHello();
 void printGoodBye();
 
@@ -11,11 +11,13 @@ int main()
 }
 
 // function definition
-void printHello(){
+void printHello()
+{
     printf("Hello!\n");
     printf("My name is Amio Sarkar.\n");
 }
 
-void printGoodBye(){
+void printGoodBye()
+{
     printf("Good bye!\n");
 }
